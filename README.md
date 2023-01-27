@@ -65,7 +65,7 @@ A shortcut to create a new branch and shift onto it
 - *name* can be anything, but by convention it is set as **origin**
 - *url* is the url of the github repository
 
-### git push \<remote-name\> \<branch-name\>
+### git push \<remote-name\> \<branch-name\> -u
 - Push the specified branch to the the remote repository
 
 ### git push \<remote-name\> \<local-branch-name\>:\<remote-branch-name\> 
