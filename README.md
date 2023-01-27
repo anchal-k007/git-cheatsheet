@@ -86,6 +86,8 @@ Git will tell you the path, if any, to the .git repository that the current fold
 
 
 
+******************************************************************************************************************************************************************
+
 
 
 # Useful articles and resources relating to git
