@@ -74,8 +74,8 @@ This pushes the *local-branch-name* to your *remote-name*, but it is renamed to 
 ### git clone \<url\>
 Clones the remote repository onto our local folder
 
-
-
+### git rev-parse --absolute-git-dir
+Git will tell you the path, if any, to the .git repository that the current folder “belongs” to.
 
 
 
