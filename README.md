@@ -21,6 +21,13 @@ Commit the changes that are present in the staging area. The commit has an assoc
 - Logs all the commits that have been made if number is not specified, else logs the latest (number) of commits that have been made on the present branch
 - Sometimes when logging, the terminal may hang. Press q and press enter to exit
 
+### git log --oneline
+A summarised version of the log is shown
+
+### git ls-files
+- Returns the list of files that are present in the index aka staging area
+- Once a file has been commited, it is very difficult to remove it from the index (atleast I still don't know how to do it, and the biteinteractive article says so)
+
 ### git checkout \<filename\>
 - Undo all the changes that have been made to *filename* since the most recent commit
 
@@ -81,7 +88,8 @@ Git will tell you the path, if any, to the .git repository that the current fold
 
 
 
-
+# Useful articles and resources relating to git
+- [Picturing how git works](https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/)
 
 
 
