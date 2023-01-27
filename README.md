@@ -21,8 +21,11 @@ Commit the changes that are present in the staging area. The commit has an assoc
 - Logs all the commits that have been made if number is not specified, else logs the latest (number) of commits that have been made on the present branch
 - Sometimes when logging, the terminal may hang. Press q and press enter to exit
 
-### git checkout --\<filename\>
-- Undo all the changes that have been made to **filename** since the most recent commit
+### git checkout \<filename\>
+- Undo all the changes that have been made to *filename* since the most recent commit
+
+### git restore \<filename\>
+- Undo all the changes that have been made to *filename* since the most recent commit
 
 ### git revert \<hashcode\>
 - Haven't used this yet, so not so sure
