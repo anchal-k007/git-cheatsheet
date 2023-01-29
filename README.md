@@ -84,7 +84,11 @@ Clones the remote repository onto our local folder
 ### git rev-parse --absolute-git-dir
 Git will tell you the path, if any, to the .git repository that the current folder “belongs” to.
 
+### git diff
+Shows how the index differs from the working tree
 
+### git diff --cached
+Shows how the index differs from the most recent commit
 
 ******************************************************************************************************************************************************************
 
