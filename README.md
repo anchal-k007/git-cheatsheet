@@ -10,7 +10,7 @@ Add the files that will shift from the present working directory to the staging 
 ### git status
 List all new or modified files that haven't yet been committed in the current git repository
 
-### git restore --cached \<filenames\>
+### git restore --staged \<filenames\>
 Remove the filenames from the staging area
 
 ### git commit -m "Your message"
