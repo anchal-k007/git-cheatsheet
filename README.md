@@ -30,6 +30,7 @@ A summarised version of the log is shown
 
 ### git checkout \<filename\>
 - Undo all the changes that have been made to *filename* since the most recent commit
+- Also shifts HEAD to point to that particular file
 
 ### git restore \<filename\>
 - Undo all the changes that have been made to *filename* since the most recent commit
@@ -90,12 +91,19 @@ Shows how the index differs from the working tree
 ### git diff --cached
 Shows how the index differs from the most recent commit
 
+### git checkout \<branchname\>^
+- **^** is the relative reference operator
+- Moves the head pointer to the parent of the *branchname*
+
+### git checkout \<branchname\>~\<number\>
+- **~** is again a relative reference operator that allows us to move *number* parents upwards of the specified branch 
+
 ******************************************************************************************************************************************************************
 
 
 
 # Useful articles and resources relating to git
 - [Picturing how git works](https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/)
-
+- [Learn git interactively](https://learngitbranching.js.org/)
 
 
