@@ -98,6 +98,12 @@ Shows how the index differs from the most recent commit
 ### git checkout \<branchname\>~\<number\>
 - **~** is again a relative reference operator that allows us to move *number* parents upwards of the specified branch 
 
+### git branch -f \<branch1\> \<branch2\>
+- Used to reassign the branches
+- Moves by force, the _branch1_ to _branch2_
+- _branch1_ and _branch2_ can both be relative referenced as well
+
+
 ******************************************************************************************************************************************************************
 
 
